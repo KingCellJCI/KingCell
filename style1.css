@@ -1,0 +1,448 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Regular.ttf') format('truetype');
+}
+
+body    {
+    background-image: url(dark4.jpg);
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #FFFFFF;
+    font-family: 'Open Sans', 'Roboto', 'Montserrat', 'Lato', 'Proxima Nova', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1E1E;
+
+}
+.header h1 {
+    font-size: 0.4cm;
+    margin-inline: auto;
+    padding: 10px;
+
+}
+
+.header h1 a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.header2 {
+    display: flex;
+    height: 100px;
+    background-color: black;
+}
+
+
+#moving-image {
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    animation: move-image 5s linear infinite;
+}
+
+
+@keyframes move-image {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100%;
+    }
+}
+
+.slider {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    background-color: black;
+    text-align: -webkit-center;
+}
+
+.slider img {
+    max-width: 80%;
+    height: 480px;
+}
+
+.button a img {
+    max-width: 100px;
+}
+
+.instagram img {
+    width: 100px;
+}
+
+.instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.instagram h1 {
+    margin-bottom: 100px;
+}
+
+.about {
+    display: block;
+    margin: 100px;
+    font-size: x-large;
+}
+
+.hp {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    
+}
+
+.item1 {
+    display: block;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    text-align: center;
+    text-decoration: none;
+    margin: 150px 100px 100px 100px;
+}
+
+.item2 {
+    display: block;
+    grid-column: 2 / 2;
+    grid-row: 1 / 2;
+    text-align: center;
+    text-decoration: none;
+    margin: 150px 100px 100px 100px;
+}
+
+.item3 {
+    display: block;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    text-align: center;
+    text-decoration: none;
+    margin: 150px 100px 100px 100px;
+}
+
+.item4 {
+    display: block;
+    grid-column: 2 / 2;
+    grid-row: 2 / 3;
+    text-align: center;
+    text-decoration: none;
+    margin: 150px 100px 100px 100px;
+}
+
+.item5 {
+    display: block;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    text-align: center;
+    text-decoration: none;
+    margin: 150px 100px 100px 100px;
+}
+
+.item6 {
+    display: block;
+    grid-column: 2 / 2;
+    grid-row: 3 / 4;
+    text-align: center;
+    text-decoration: none;
+    margin: 150px 100px 100px 100px;
+}
+
+.item7 {
+    display: block;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    text-align: center;
+    text-decoration: none;
+    margin: 150px 100px 100px 100px;
+}
+
+.item8 {
+    display: block;
+    grid-column: 2 / 2;
+    grid-row: 4 / 5;
+    text-align: center;
+    text-decoration: none;
+    margin: 150px 100px 100px 100px;
+}
+
+.item9 {
+    display: block;
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+    text-align: center;
+    text-decoration: none;
+    margin: 150px 100px 100px 100px;
+}
+
+.item10 {
+    display: block;
+    grid-column: 2 / 2;
+    grid-row: 5 / 6;
+    text-align: center;
+    text-decoration: none;
+    margin: 150px 100px 100px 100px;
+}
+
+.item11 {
+    display: block;
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+    text-align: center;
+    text-decoration: none;
+    margin: 150px 100px 100px 100px;
+}
+
+.item12 {
+    display: block;
+    grid-column: 2 / 2;
+    grid-row: 6 / 7;
+    text-align: center;
+    text-decoration: none;
+    margin: 150px 100px 100px 100px;
+}
+
+.item13 {
+    display: block;
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+    text-align: center;
+    text-decoration: none;
+    margin: 150px 100px 100px 100px;
+}
+
+.item14 {
+    display: block;
+    grid-column: 2 / 2;
+    grid-row: 7 / 8;
+    text-align: center;
+    text-decoration: none;
+    margin: 150px 100px 100px 100px;
+}
+
+.item15 {
+    display: block;
+    grid-column: 1 / 2;
+    grid-row: 8 / 9;
+    text-align: center;
+    text-decoration: none;
+    margin: 150px 100px 100px 100px;
+}
+
+.item16 {
+    display: block;
+    grid-column: 2 / 2;
+    grid-row: 8 / 9;
+    text-align: center;
+    text-decoration: none;
+    margin: 150px 100px 100px 100px;
+}
+
+.item17 {
+    display: block;
+    grid-column: 1 / 2;
+    grid-row: 9 / 10;
+    text-align: center;
+    text-decoration: none;
+    margin: 150px 100px 100px 100px;
+}
+
+.hp a {
+    border: solid white;
+    padding: 30px;
+}
+
+.hp a img {
+    height: 200px;
+}
+
+.hp a h1 {
+    font-size: smaller;
+}
+
+.hp a p {
+    color: #FFFFFF;
+}
+
+.about p {
+    color: #FFFFFF;
+    margin: 30px;
+}
+
+.about h1 {
+    margin-bottom: 60px;
+}
+
+.gambarhp {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #FFFFFF;
+    margin-left: 100px;
+    width: 30%;
+    height: 410px;
+    border: solid rgb(85, 79, 79);
+}
+
+.gambarhp img {
+    display: block;
+    margin: auto;
+    height: 410px;
+    width: fit-content;
+}
+
+.gambarhp p {
+    font-size: x-large;
+    text-align: center;
+}
+
+.flexbody {
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+
+}
+
+.priceinfo {
+    color: #FFFFFF;
+    margin: 40px 40px 40px 40px;
+    font-size: large;
+}
+.priceinfo .firstp p{
+    margin: 0px 0px 50px 0px
+}
+
+.priceinfo p {
+    margin: 40px 0px 20px 23px;
+}
+
+.priceinfo li {
+    margin: 10px 0px 10px 0px;
+}
+
+.priceinfo a {
+    color: #FFFFFF;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.priceinfo a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.priceinfo a:active {
+    opacity: 0.5;
+}
+
+.flexbody .gambarhp .smalltokopedia {
+    background-color: rgb(0, 255, 13);
+    color: white;
+    padding: 10px 20px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30%;
+    margin-bottom: 10px;
+}
+
+.flexbody .gambarhp .smalltokopedia a img {
+    height: 50px;
+    width: auto;
+
+}
+
+.flexbody .gambarhp .smallbukalapak {
+    background-color: rgb(218, 9, 155);
+    color: white;
+    padding: 10px 20px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30%;
+    margin: 10px 0px;
+}
+
+.flexbody .gambarhp .smallbukalapak a img {
+    height: 50px;
+    width: auto;
+
+}
+
+.flexbody .gambarhp .smallshopee {
+    background-color: rgb(218, 40, 9);
+    color: white;
+    padding: 10px 20px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30%;
+    margin: 10px 0px;
+}
+
+.flexbody .gambarhp .smallshopee a img {
+    height: 50px;
+    width: auto;
+
+}
+
+.flexbody .gambarhp .smallwhatsapp {
+    background-color: rgb(21, 94, 37);
+    color: white;
+    padding: 10px 20px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30%;
+    margin-top: 10px;
+}
+
+.flexbody .gambarhp .smallwhatsapp a img {
+    height: 50px;
+    width: auto;
+
+}
+
+.page-button {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+.page-button button {
+    border: 0px;
+}
+
+.page-button button a img {
+    height: 100px;
+}
+
+.footer {
+    background-color: 1f1f1f;
+    height: 250px;
+    padding: 50px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.footer a:active {
+    opacity: 0.5;
+}
